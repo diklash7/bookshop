@@ -1,0 +1,85 @@
+body{
+  background-color:  rgb(63, 60, 60);
+
+}
+
+
+table {
+    background-color: rgb(233, 229, 229);
+    border: 5px solid rgb(119, 210, 270);
+    text-align: center;
+    margin: auto;
+    table-layout: fixed;
+    height: 300px;
+    width: 900px;
+  }
+
+  .cell {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  
+  td, th {
+    border: solid 1px rgb(128, 128, 128);
+    cursor: pointer;
+  
+  }
+
+
+  
+.modal {
+    background-color: #111;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 150%;
+    height: 80vh;
+    min-width: 300px;
+    text-align: center;
+  }
+  .modal.open {
+    left: 50%;
+    transition: left 0.5s;
+  }
+  .modal h3 {
+    color: pink;
+    text-decoration: overline;
+    text-transform: capitalize;
+  }
+
+  .modal h5, .modal h4  {
+    color: pink;
+  }
+  .modal h4 span {
+    color: pink;
+  }
+  .modal > p {
+    text-align: left;
+    color: aliceblue;
+  }
+ 
+ button{
+    width: 70px;
+    height: 35px;
+    
+    text-transform: capitalize;
+  }
+
+  .read{
+    background-color: rgba(5, 5, 219, 0.884);
+    color:whitesmoke;
+  }
+
+  .delete{
+    background-color: red;
+    color:whitesmoke;
+  }
+
+  .update{
+    background-color: orange;
+    color:whitesmoke;
+  }
+
